@@ -2178,6 +2178,7 @@ input, select, textarea {
 		}
 
 			.image.avatar img {
+				opacity: 85%;
 				border-radius: 0%;
 				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
 				display: block;
@@ -2685,7 +2686,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: url(../css/banner.jpg) no-repeat;
-		height: 100%;
+		background-position: top left;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
@@ -3322,11 +3323,11 @@ input, select, textarea {
 }
 
 .fade-in {
-  	animation: fadeIn ease 5s;
-  	-webkit-animation: fadeIn ease 5s;
-  	-moz-animation: fadeIn ease 5s;
-  	-o-animation: fadeIn ease 5s;
-  	-ms-animation: fadeIn ease 5s;
+  	animation: fadeIn ease 2s;
+  	-webkit-animation: fadeIn ease 2s;
+  	-moz-animation: fadeIn ease 2s;
+  	-o-animation: fadeIn ease 2s;
+  	-ms-animation: fadeIn ease 2s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
