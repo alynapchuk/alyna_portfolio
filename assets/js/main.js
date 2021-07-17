@@ -69,7 +69,7 @@ function addNextWord() {
 	var $window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$titleBar = null,
+		$titleBar = $(''),
 		$nav = $('#nav'),
 		$wrapper = $('#wrapper');
 
@@ -185,7 +185,7 @@ function addNextWord() {
 	$titleBar = $(
 		'<div id="titleBar">' +
 		'<a href="#header" class="toggle"></a>' +
-		'<span class="title">' + $('#logo').html() + '</span>' +
+		'<span class="title">' + '</span>' +
 		'</div>'
 	)
 		.appendTo($body);
