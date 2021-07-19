@@ -129,7 +129,7 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1781,7 +1781,8 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 3.5em;
+		font-size: 4rem;
+		margin: 0 0 0 10%;
 	}
 
 		header.major h2 + p {
@@ -2178,7 +2179,6 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 0%;
-			height: 15em;
 			overflow: hidden;
 		}
 
@@ -3022,13 +3022,13 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #e0e0e0;
 				color: #fff;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: rgb(41, 26, 26);
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3068,7 +3068,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						color: #fff;
+						color: #93AAA2;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -3291,8 +3291,13 @@ input, select, textarea {
 					}
 
 			ul.feature-icons li {
-				display: block;
-				width: 100%;
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 1.6875em 0;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				vertical-align: top;
+				width: 45%;
 			}
 
 		/* Button */
@@ -3316,6 +3321,7 @@ input, select, textarea {
   }
 
   .change-text {
+	  align-items: center;
 	  color: #fff;
   }
 
@@ -3330,7 +3336,7 @@ input, select, textarea {
 .no-fade {
 	width: 100%;
 	color: #fff;
-	opacity: 75%;
+	opacity: 85%;
 }
 
 .fade-in {
