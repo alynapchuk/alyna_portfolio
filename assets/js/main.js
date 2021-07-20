@@ -1,4 +1,4 @@
-var words = ['Alyna Palamarchuk', 'Alyna Palamarchuk', 'a software developer', 'positive and driven', 'a plant enthusiast'],
+var words = [' Alyna Palamarchuk', ' Alyna Palamarchuk', ' a software developer', 'positive and driven', 'a plant enthusiast'],
 	currentStep = 0,
 	textEl = document.querySelector('.change-text'),
 	oldWord = '_';
